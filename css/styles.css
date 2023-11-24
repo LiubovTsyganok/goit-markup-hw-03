@@ -1,0 +1,131 @@
+.list {
+    list-style-type: none;
+}
+
+.link {
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    color: var(--SLATE, #434455);
+    background-color: #FFFFFF;
+}
+
+.logo{
+    color: var(--IRIS, #4D5AE5);
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.logotype{
+    color: var(--NAVY-BLUE, #2E2F42);
+}
+
+.menu-link{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-link:hover,
+.menu-link:focus{
+    color: var(--OCEAN, #404BBF);
+}
+
+.contact{
+    font-style: normal;
+}
+.contact-link{
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.contact-link:hover,
+.contact-link:focus{
+    color: var(--OCEAN, #404BBF);
+}
+
+.hero{
+    background-color: #2E2F42;
+}
+
+.hero-title{
+    color: var(--WHITE, #FFF);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+
+.hero-btn{
+    font-family: "Roboto", sans-serif;
+    color: var(--WHITE, #FFF);
+    background: var(--IRIS, #4D5AE5);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+    background: var(--OCEAN, #404BBF);
+}
+
+.section-title{
+    color: var(--NAVY-BLUE, #2E2F42);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
+
+.section-subtitle{
+    color: var(--NAVY-BLUE, #2E2F42);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+
+.team{
+    text-align: center;
+    background-color: #F4F4FD;
+}
+
+.team-list-item{
+    background-color: #FFFFFF;
+}
+.section-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.footer{
+    background-color: #2E2F42;
+}
+.footer-text{
+    color: var(--CLOUD, #F4F4FD);
+}
+
+.logotype-footer{
+    color: var(--CLOUD, #F4F4FD);
+}
+
