@@ -1,3 +1,4 @@
+/*=======COMMON STYLES=======*/
 .list {
     list-style-type: none;
 }
@@ -10,13 +11,78 @@ button {
     cursor: pointer;
 }
 
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ul,ol{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+img{
+    display: block;
+}
+
 body{
     font-family: "Roboto", sans-serif;
     color: var(--SLATE, #434455);
     background-color: #FFFFFF;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+.container{
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 141px;
+    padding-right: 141px;
+}
+
+/*=======/COMMON STYLES======*/
+/*=======HEADER=======*/
+.page-header-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-navigation{
+    display: flex;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    column-gap: 40px;
+}
+
+.contact-menu{
+    display: flex;
+    column-gap: 40px;
+}
+
+.contact-item{
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
 .logo{
+    margin-right: 76px;
     color: var(--IRIS, #4D5AE5);
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
@@ -31,11 +97,14 @@ body{
 }
 
 .menu-link{
+    display: block;
     color: var(--NAVY-BLUE, #2E2F42);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .menu-link:hover,
@@ -45,7 +114,9 @@ body{
 
 .contact{
     font-style: normal;
+    display: flex;
 }
+
 .contact-link{
     color: #434455;
     font-size: 16px;
@@ -57,9 +128,12 @@ body{
 .contact-link:focus{
     color: var(--OCEAN, #404BBF);
 }
-
+/*=======/HEADER=======*/
+/*=======HERO=======*/
 .hero{
     background-color: #2E2F42;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .hero-title{
@@ -69,6 +143,10 @@ body{
     font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    width: 496px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
 }
 
 .hero-btn{
@@ -79,6 +157,9 @@ body{
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .hero-btn:hover,
@@ -87,6 +168,7 @@ body{
 }
 
 .section-title{
+    margin-bottom: 72px;
     color: var(--NAVY-BLUE, #2E2F42);
     text-align: center;
     font-size: 36px;
@@ -104,25 +186,67 @@ body{
     letter-spacing: 0.02em;
 }
 
+.section{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+/*======/HERO======*/
+/*======BENEFITS======*/
+.benefits-list{
+    display: flex;
+    column-gap: 24px;
+}
+/*======BENEFITS======*/
+/*======TEAM======*/
+.team-list-img{
+    margin-bottom: 32px;
+}
+.team-list{
+    display: flex;
+    width: calc((100%-72px) / 4);
+    column-gap: 24px;
+}
 .team{
     text-align: center;
     background-color: #F4F4FD;
 }
 
 .team-list-item{
+    width: calc((100%-72px) / 4);
     background-color: #FFFFFF;
+    padding-bottom: 32px;
 }
 .section-text{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
 }
+/*------/TEAM======*/
+/*=======PORTFOLIO======*/
+.portfolio-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px 24px;
+}
+.portfolio-list-item {
+    width: calc((100%-48px) / 3);
+    padding-bottom: 32px;
+}
 
+.portfolio-list-img{
+    margin-bottom: 32px;
+}
+/*=======/PORTFOLIO======*/
+/*=======FOOTER=======*/
 .footer{
     background-color: #2E2F42;
+    padding-top: 101.5px;
+    padding-bottom: 100px;
 }
 .footer-text{
     color: var(--CLOUD, #F4F4FD);
+    width: 264px;
+    margin-top: 17.5px;
 }
 
 .logotype-footer{
