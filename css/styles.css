@@ -51,6 +51,7 @@ body{
     margin-right: auto;
     padding-left: 141px;
     padding-right: 141px;
+    padding: 0 15px;
 }
 
 /*=======/COMMON STYLES======*/
@@ -227,9 +228,6 @@ body{
     text-align: center;
 }
 
-.team-list-img{
-    margin-bottom: 32px;
-}
 .team-list{
     display: flex;
     gap: 24px;
@@ -242,7 +240,7 @@ body{
 .team-list-item{
     width: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
-    padding-bottom: 32px;
+    /*padding-bottom: 32px;*/
     border-radius: 0px 0px 4px 4px;
 }
 .section-text{
@@ -259,11 +257,7 @@ body{
 }
 .portfolio-list-item {
     width: calc((100% - 48px) / 3);
-    padding-bottom: 32px;
-}
-
-.portfolio-list-img{
-    margin-bottom: 32px;
+    /*padding-bottom: 32px;*/
 }
 
 .portfolio-list-title{
